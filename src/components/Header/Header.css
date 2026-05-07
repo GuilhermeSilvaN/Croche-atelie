@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111827;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  height: 92px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 10px 42px;
+  
+  background-color: #ffffff;
+  
+  border-bottom: 1px solid #d9d9d9;
+  box-shadow: 0 4px 10px rgba(85, 38, 17, 0.25);
+
+  transition: background-color 0.3s ease;
+  font-family: sans-serif;
+}
+
+/* HEADER ESCURO */
+body.dark-mode .header {
+  background-color: #1f2937;
+  border-bottom: 1px solid #374151;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-box {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ff006e, #ff4d8d);
+
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  border-radius: 12px;
+
+}
+
+.logo-box img{
+  width: 80px;
+}
+.header-text{
+    margin: 0px 20px;
+    
+}
+
+.header-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    
+    margin-bottom: 3px;
+    
+  transition: color 0.3s ease;
+}
+
+.header-text p {
+  font-size: 14px;
+  color: #6b7280;
+
+  transition: color 0.3s ease;
+}
+
+/* TEXTO ESCURO */
+body.dark-mode .header-text h1 {
+  color: #ffffff;
+}
+
+body.dark-mode .header-text p {
+  color: #d1d5db;
+}
+
+.theme-button {
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+
+  background-color: white;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.theme-button:hover {
+  transform: scale(1.08);
+  background-color: #f3f4f6;
+}
+
+/* BOTÃO ESCURO */
+body.dark-mode .theme-button {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  color: #ffffff;
+}
+
+body.dark-mode .theme-button:hover {
+  background-color: #4b5563;
+}
