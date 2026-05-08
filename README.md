@@ -1,6 +1,6 @@
 # Documentação do Sistema de Filtros - Crochê Ateliê
 
-[!preview](./images/viewModel-croche.png)
+![Tela principal](/images/viewModelCroche.png)
 
 ---
 
