@@ -1,5 +1,9 @@
 # Documentação do Sistema de Filtros - Crochê Ateliê
 
+[!preview](./images/viewModel-croche.png)
+
+---
+
 ## Visão Geral
 
 O sistema de filtros foi desenvolvido em React utilizando componentes reutilizáveis e compartilhamento de estado entre componentes.
