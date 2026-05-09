@@ -323,6 +323,78 @@ export const products = [
     image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291998/croche31_emhxkv.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Clássico%20Areia"
+  },
+  {
+    id: 34,
+    name: "Tapete Vermelho com azul",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete artesanal em crochê com detalhes vermelhos e acabamento sofisticado.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292007/croche35_irbbbu.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20Vermelho"
+  },
+  {
+    id: 35,
+    name: "Tapete bege com rosas",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete artesanal em crochê bege e acabamento arredondados e flores ao centro.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292005/croche18_s6ybmc.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20Bege"
+  },
+  {
+    id: 36,
+    name: "Tapete bege com marrom",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete artesanal em crochê bege com marrom com detalhes em V.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292005/croche5_nbcnck.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20bege%20com%20marrom"
+  },
+  {
+    id: 37,
+    name: "Tapete coração",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete com formato de coração, marrom com amarelo claro e detalhamentos nas bordas.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292006/croche33_gtjafr.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20de%20corocao"
+  },
+  {
+    id: 38,
+    name: "Tapete cinza com roxo",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete com formato cinza com roxo claro e detalhamentos nas bordas.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292006/croche34_iljsn8.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20cinza%20com%20roxo"
+  },
+  {
+    id: 39,
+    name: "Tapete xadrez entrelaçado",
+    category: "tapete",
+    price: 180.0,
+    status: "Sob Encomenda",
+    description:
+      "Tapete xadrez entrelaçado verde claro com laranja.",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292007/croche32_wqy3ok.jpg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Tapete%20verde%20com%20laranja"
   }
 ];
 
