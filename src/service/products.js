@@ -7,7 +7,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Apoiador de copo em crochê artesanal com acabamento delicado e elegante.",
-    image: "src/ui/apoiador_de_copo/croche2.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291970/croche2_bsnpsj.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Apoiador%20de%20Copo%20Artesanal%20Bege"
   },
@@ -19,7 +19,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Caminho de mesa em crochê com detalhes inspirados em cachos de uva e acabamento sofisticado.",
-    image: "src/ui/caminho_de_mesa/caminho_de_mesa_uva.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291978/caminho_de_mesa_uva_g2qwvw.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Uva"
   },
@@ -31,7 +31,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Peça artesanal em crochê com detalhes florais e toque elegante para decoração.",
-    image: "src/ui/caminho_de_mesa/croche15.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291977/croche15_kltlnz.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Vermelho"
   },
@@ -43,7 +43,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo delicado em crochê branco perfeito para mesas elegantes e sofisticadas.",
-    image: "src/ui/caminho_de_mesa/croche16.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291978/croche16_ysizs7.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Delicado%20Branco"
   },
@@ -55,7 +55,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Caminho de mesa artesanal com flores em crochê e acabamento refinado.",
-    image: "src/ui/caminho_de_mesa/croche17.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291977/croche17_lau7py.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Rosê"
   },
@@ -67,7 +67,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Peça sofisticada em crochê com detalhes elegantes para decoração de mesa.",
-    image: "src/ui/caminho_de_mesa/croche201.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291977/croche201_hywgpf.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Luxo%20Bege"
   },
@@ -79,7 +79,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo artesanal em crochê azul com detalhes florais e acabamento delicado.",
-    image: "src/ui/caminho_de_mesa/croche23.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291977/croche23_jmwjs6.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Azul"
   },
@@ -91,7 +91,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Caminho de mesa artesanal tradicional em crochê com visual elegante.",
-    image: "src/ui/caminho_de_mesa/croche6.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291978/croche6_rcl4q7.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Tradicional"
   },
@@ -103,7 +103,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Porta guardanapo artesanal em crochê com acabamento floral delicado.",
-    image: "src/ui/porta_guardanapo/croche3.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291984/croche3_ks3ibh.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Floral"
   },
@@ -115,7 +115,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo elegante em crochê ideal para compor mesas sofisticadas.",
-    image: "src/ui/porta_guardanapo/croche4.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291984/croche4_n3yjkl.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Elegante"
   },
@@ -127,7 +127,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Porta guardanapo artesanal em tons rosa e azul com visual delicado.",
-    image: "src/ui/porta_guardanapo/porta_guardanapo_rosa_azul.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291984/porta_guardanapo_rosa_azul_cf9o11.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Rosa%20e%20Azul"
   },
@@ -139,7 +139,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast artesanal em crochê com detalhes florais e acabamento sofisticado.",
-    image: "src/ui/souplast/croche10.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291992/croche10_e9o9cq.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Bege"
   },
@@ -151,7 +151,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Peça clássica em crochê branco ideal para decoração elegante de mesa.",
-    image: "src/ui/souplast/croche11.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291994/croche11_sywg3g.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Clássico%20Branco"
   },
@@ -163,7 +163,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast artesanal vermelho com flores delicadas e acabamento refinado.",
-    image: "src/ui/souplast/croche12.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291992/croche12_p9n1dz.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Vermelho"
   },
@@ -175,7 +175,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo artesanal em tom rosê com acabamento delicado e sofisticado.",
-    image: "src/ui/souplast/croche13.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291993/croche13_zwa2qi.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Elegance%20Rosê"
   },
@@ -187,7 +187,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast artesanal com detalhes florais dourados e visual sofisticado.",
-    image: "src/ui/souplast/croche14.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291993/croche14_wsxt9m.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Dourado"
   },
@@ -200,7 +200,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo rosê em crochê artesanal com visual delicado e sofisticado.",
-    image: "src/ui/souplast/croche19.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291993/croche19_d2afow.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Rosê"
   },
@@ -212,7 +212,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast premium em crochê bege com acabamento artesanal refinado.",
-    image: "src/ui/souplast/croche20.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291994/croche20_m5ywqv.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Premium%20Bege"
   },
@@ -224,7 +224,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast lilás artesanal com flores delicadas e acabamento elegante.",
-    image: "src/ui/souplast/croche21.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291995/croche21_txfskq.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Lilás"
   },
@@ -236,7 +236,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo terracota artesanal com flores em crochê e visual sofisticado.",
-    image: "src/ui/souplast/croche24.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291995/croche24_dgw3gh.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Terracota"
   },
@@ -248,7 +248,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast azul em crochê artesanal com acabamento de luxo.",
-    image: "src/ui/souplast/croche25.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291995/croche25_umc2j4.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Luxo%20Azul"
   },
@@ -260,7 +260,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Peça artesanal creme com acabamento elegante e detalhes delicados.",
-    image: "src/ui/souplast/croche26.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291996/croche26_sa3qhu.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Elegante%20Creme"
   },
@@ -272,7 +272,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo premium dourado em crochê artesanal com flores sofisticadas.",
-    image: "src/ui/souplast/croche27.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291996/croche27_ft01kg.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Dourado%20Premium"
   },
@@ -284,7 +284,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast verde claro artesanal com acabamento refinado em crochê.",
-    image: "src/ui/souplast/croche28.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291997/croche28_xwjl1p.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Artesanal%20Verde%20Claro"
   },
@@ -296,7 +296,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo champagne artesanal com flores delicadas e visual sofisticado.",
-    image: "src/ui/souplast/croche29.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291997/croche29_swk1ly.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Champagne"
   },
@@ -308,7 +308,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Souplast rosê gold artesanal com acabamento delicado e elegante.",
-    image: "src/ui/souplast/croche30.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291998/croche30_bwecmq.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Delicado%20Rosê%20Gold"
   },
@@ -320,7 +320,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Modelo clássico areia em crochê artesanal para mesas sofisticadas.",
-    image: "src/ui/souplast/croche31.jpeg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291998/croche31_emhxkv.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Clássico%20Areia"
   }

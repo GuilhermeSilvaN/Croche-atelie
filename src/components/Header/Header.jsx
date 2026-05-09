@@ -20,7 +20,7 @@ export default function Header() {
     <header className="header">
       <div className="header-left">
         <div className="logo-box">
-          <img src="src/assets/crocheAtelieLogo.png" alt="croche atelie logo" />
+          <img src="https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292820/crocheAtelieLogo_j1n6gl.png" alt="croche atelie logo" />
         </div>
 
         <div className="header-text">

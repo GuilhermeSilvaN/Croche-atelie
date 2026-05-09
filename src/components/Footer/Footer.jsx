@@ -10,7 +10,7 @@ export default function Footer() {
 
         <div className="footer-brand">
           <div className="footer-logo">
-            <img src="src/assets/crocheAtelieLogo.png" alt="croche atelie logo" />
+            <img src="https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778292820/crocheAtelieLogo_j1n6gl.png" alt="croche atelie logo" />
           </div>
 
           <div>
