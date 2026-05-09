@@ -1,4 +1,4 @@
-# Documentação do Sistema de Filtros - Crochê Ateliê
+# Crochê Ateliê
 
 ![Tela principal](/images/viewModelCroche.png)
 
