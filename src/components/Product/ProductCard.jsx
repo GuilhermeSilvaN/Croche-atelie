@@ -31,10 +31,6 @@ export default function ProductCard({ product }) {
           </span>
         </div>
 
-        <h3>
-          R$ {product.price.toFixed(2).replace(".", ",")}
-        </h3>
-
         <button
           className="details-button"
           onClick={() => setOpenDetails(!openDetails)}

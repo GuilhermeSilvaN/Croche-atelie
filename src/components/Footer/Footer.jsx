@@ -18,7 +18,7 @@ export default function Footer() {
 
             <p>
               Produtos artesanais feitos com amor,
-              carinho e dedicação.
+              carinho e dedicação. Francimar
             </p>
           </div>
         </div>
@@ -36,9 +36,9 @@ export default function Footer() {
           <div className="footer-column">
             <h3>Contato</h3>
 
-            <a href="#">WhatsApp</a>
-            <a href="#">Instagram</a>
-            <a href="#">Email</a>
+            <a href="https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20em%20produtos%20de%20crochê" target="_blank">WhatsApp</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Email</a>
           </div>
 
         </div>

@@ -1,282 +1,328 @@
-const products = [
+export const products = [
   {
     id: 1,
-    name: "Tapete Floral",
-    category: "Tapetes",
-    price: 120.0,
+    name: "Apoiador de Copo Artesanal Bege",
+    category: "apoiador de copo",
+    price: 25.0,
     status: "Sob Encomenda",
     description:
-      "Tapete artesanal em crochê com detalhes florais e acabamento delicado.",
-    image:
-      "https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=900&auto=format&fit=crop",
+      "Apoiador de copo em crochê artesanal com acabamento delicado e elegante.",
+    image: "src/ui/apoiador_de_copo/croche2.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Tapete Floral."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Apoiador%20de%20Copo%20Artesanal%20Bege"
   },
-
   {
     id: 2,
-    name: "Bolsa Boho",
-    category: "Bolsas",
-    price: 95.0,
-    status: "Sob Encomenda",
-    description:
-      "Bolsa estilo boho feita em crochê com alça reforçada.",
-    image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Bolsa Boho."
-  },
-
-  {
-    id: 3,
-    name: "Sousplat Elegance",
-    category: "Decoração",
-    price: 35.0,
-    status: "Sob Encomenda",
-    description:
-      "Sousplat artesanal ideal para mesas elegantes e decorativas.",
-    image:
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Sousplat Elegance."
-  },
-
-  {
-    id: 4,
-    name: "Amigurumi Coelho",
-    category: "Amigurumi",
-    price: 68.0,
-    status: "Sob Encomenda",
-    description:
-      "Coelhinho em crochê feito à mão com acabamento macio.",
-    image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Amigurumi Coelho."
-  },
-
-  {
-    id: 5,
-    name: "Manta Soft",
-    category: "Casa",
+    name: "Caminho de Mesa Uva",
+    category: "caminho de mesa",
     price: 180.0,
     status: "Sob Encomenda",
     description:
-      "Manta confortável em crochê para sofá ou cama.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=900&auto=format&fit=crop",
+      "Caminho de mesa em crochê com detalhes inspirados em cachos de uva e acabamento sofisticado.",
+    image: "src/ui/caminho_de_mesa/caminho_de_mesa_uva.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Manta Soft."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Uva"
   },
-
   {
-    id: 6,
-    name: "Touca Infantil",
-    category: "Roupas",
-    price: 45.0,
+    id: 3,
+    name: "Caminho de Mesa Floral Vermelho",
+    category: "caminho de mesa",
+    price: 165.0,
     status: "Sob Encomenda",
     description:
-      "Touca infantil artesanal com acabamento confortável.",
-    image:
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=900&auto=format&fit=crop",
+      "Peça artesanal em crochê com detalhes florais e toque elegante para decoração.",
+    image: "src/ui/caminho_de_mesa/croche15.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Touca Infantil."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Vermelho"
   },
-
   {
-    id: 7,
-    name: "Jogo de Banheiro",
-    category: "Casa",
+    id: 4,
+    name: "Caminho de Mesa Delicado Branco",
+    category: "caminho de mesa",
     price: 150.0,
     status: "Sob Encomenda",
     description:
-      "Kit completo para banheiro feito em crochê artesanal.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=900&auto=format&fit=crop",
+      "Modelo delicado em crochê branco perfeito para mesas elegantes e sofisticadas.",
+    image: "src/ui/caminho_de_mesa/croche16.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Jogo de Banheiro."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Delicado%20Branco"
   },
-
+  {
+    id: 5,
+    name: "Caminho de Mesa Floral Rosê",
+    category: "caminho de mesa",
+    price: 170.0,
+    status: "Sob Encomenda",
+    description:
+      "Caminho de mesa artesanal com flores em crochê e acabamento refinado.",
+    image: "src/ui/caminho_de_mesa/croche17.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Rosê"
+  },
+  {
+    id: 6,
+    name: "Caminho de Mesa Luxo Bege",
+    category: "caminho de mesa",
+    price: 190.0,
+    status: "Sob Encomenda",
+    description:
+      "Peça sofisticada em crochê com detalhes elegantes para decoração de mesa.",
+    image: "src/ui/caminho_de_mesa/croche201.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Luxo%20Bege"
+  },
+  {
+    id: 7,
+    name: "Caminho de Mesa Floral Azul",
+    category: "caminho de mesa",
+    price: 175.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo artesanal em crochê azul com detalhes florais e acabamento delicado.",
+    image: "src/ui/caminho_de_mesa/croche23.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Floral%20Azul"
+  },
   {
     id: 8,
-    name: "Centro de Mesa Rosas",
-    category: "Decoração",
-    price: 55.0,
-    status: "Sob Encomenda",
-    description:
-      "Centro de mesa delicado com detalhes em rosas.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Centro de Mesa Rosas."
-  },
-
-  {
-    id: 9,
-    name: "Blusa Verão",
-    category: "Roupas",
-    price: 110.0,
-    status: "Sob Encomenda",
-    description:
-      "Blusa leve em crochê ideal para dias quentes.",
-    image:
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Blusa Verão."
-  },
-
-  {
-    id: 10,
-    name: "Chaveiro Ursinho",
-    category: "Mimos",
-    price: 18.0,
-    status: "Sob Encomenda",
-    description:
-      "Chaveiro artesanal de ursinho feito em crochê.",
-    image:
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Chaveiro Ursinho."
-  },
-
-  {
-    id: 11,
-    name: "Cesto Organizador",
-    category: "Casa",
-    price: 75.0,
-    status: "Sob Encomenda",
-    description:
-      "Cesto organizador resistente e elegante em crochê.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Cesto Organizador."
-  },
-
-  {
-    id: 12,
-    name: "Vestido Infantil",
-    category: "Roupas",
+    name: "Caminho de Mesa Tradicional",
+    category: "caminho de mesa",
     price: 145.0,
     status: "Sob Encomenda",
     description:
-      "Vestido infantil artesanal com acabamento delicado.",
-    image:
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=900&auto=format&fit=crop",
+      "Caminho de mesa artesanal tradicional em crochê com visual elegante.",
+    image: "src/ui/caminho_de_mesa/croche6.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Vestido Infantil."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Caminho%20de%20Mesa%20Tradicional"
   },
-
+  {
+    id: 9,
+    name: "Porta Guardanapo Floral",
+    category: "porta guardanapo",
+    price: 18.0,
+    status: "Sob Encomenda",
+    description:
+      "Porta guardanapo artesanal em crochê com acabamento floral delicado.",
+    image: "src/ui/porta_guardanapo/croche3.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Floral"
+  },
+  {
+    id: 10,
+    name: "Porta Guardanapo Elegante",
+    category: "porta guardanapo",
+    price: 20.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo elegante em crochê ideal para compor mesas sofisticadas.",
+    image: "src/ui/porta_guardanapo/croche4.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Elegante"
+  },
+  {
+    id: 11,
+    name: "Porta Guardanapo Rosa e Azul",
+    category: "porta guardanapo",
+    price: 22.0,
+    status: "Sob Encomenda",
+    description:
+      "Porta guardanapo artesanal em tons rosa e azul com visual delicado.",
+    image: "src/ui/porta_guardanapo/porta_guardanapo_rosa_azul.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Porta%20Guardanapo%20Rosa%20e%20Azul"
+  },
+  {
+    id: 12,
+    name: "Souplast Floral Bege",
+    category: "souplast",
+    price: 55.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast artesanal em crochê com detalhes florais e acabamento sofisticado.",
+    image: "src/ui/souplast/croche10.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Bege"
+  },
   {
     id: 13,
-    name: "Amigurumi Dinossauro",
-    category: "Amigurumi",
-    price: 85.0,
-    status: "Sob Encomenda",
-    description:
-      "Dinossauro em crochê divertido e totalmente artesanal.",
-    image:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Amigurumi Dinossauro."
-  },
-
-  {
-    id: 14,
-    name: "Bolsa Minimalista",
-    category: "Bolsas",
-    price: 98.0,
-    status: "Sob Encomenda",
-    description:
-      "Bolsa moderna em crochê com estilo minimalista.",
-    image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Bolsa Minimalista."
-  },
-
-  {
-    id: 15,
-    name: "Tapete Redondo",
-    category: "Tapetes",
-    price: 130.0,
-    status: "Sob Encomenda",
-    description:
-      "Tapete redondo artesanal perfeito para decoração.",
-    image:
-      "https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Tapete Redondo."
-  },
-
-  {
-    id: 16,
-    name: "Peso de Porta Coruja",
-    category: "Decoração",
-    price: 42.0,
-    status: "Sob Encomenda",
-    description:
-      "Peso de porta em formato de coruja feito em crochê.",
-    image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Peso de Porta Coruja."
-  },
-
-  {
-    id: 17,
-    name: "Porta Copos",
-    category: "Decoração",
-    price: 28.0,
-    status: "Sob Encomenda",
-    description:
-      "Kit de porta copos em crochê com acabamento premium.",
-    image:
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Porta Copos."
-  },
-
-  {
-    id: 18,
-    name: "Cachecol Inverno",
-    category: "Roupas",
-    price: 70.0,
-    status: "Sob Encomenda",
-    description:
-      "Cachecol artesanal confortável para dias frios.",
-    image:
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=900&auto=format&fit=crop",
-    whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Cachecol Inverno."
-  },
-
-  {
-    id: 19,
-    name: "Naninha Bebê",
-    category: "Mimos",
+    name: "Souplast Clássico Branco",
+    category: "souplast",
     price: 58.0,
     status: "Sob Encomenda",
     description:
-      "Naninha artesanal macia e delicada para bebês.",
-    image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=900&auto=format&fit=crop",
+      "Peça clássica em crochê branco ideal para decoração elegante de mesa.",
+    image: "src/ui/souplast/croche11.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse na Naninha Bebê."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Clássico%20Branco"
+  },
+  {
+    id: 14,
+    name: "Souplast Floral Vermelho",
+    category: "souplast",
+    price: 60.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast artesanal vermelho com flores delicadas e acabamento refinado.",
+    image: "src/ui/souplast/croche12.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Vermelho"
+  },
+  {
+    id: 15,
+    name: "Souplast Elegance Rosê",
+    category: "souplast",
+    price: 62.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo artesanal em tom rosê com acabamento delicado e sofisticado.",
+    image: "src/ui/souplast/croche13.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Elegance%20Rosê"
+  },
+  {
+    id: 16,
+    name: "Souplast Floral Dourado",
+    category: "souplast",
+    price: 64.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast artesanal com detalhes florais dourados e visual sofisticado.",
+    image: "src/ui/souplast/croche14.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Dourado"
   },
 
   {
-    id: 20,
-    name: "Sousplat Premium",
-    category: "Decoração",
-    price: 242.0,
+    id: 21,
+    name: "Souplast Floral Rosê",
+    category: "souplast",
+    price: 62.0,
     status: "Sob Encomenda",
     description:
-      "Sousplat premium em crochê para mesas sofisticadas.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=900&auto=format&fit=crop",
+      "Modelo rosê em crochê artesanal com visual delicado e sofisticado.",
+    image: "src/ui/souplast/croche19.jpeg",
     whatsapp:
-      "https://wa.me/5599999999999?text=Olá! Tenho interesse no Sousplat Premium."
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Rosê"
+  },
+  {
+    id: 22,
+    name: "Souplast Premium Bege",
+    category: "souplast",
+    price: 66.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast premium em crochê bege com acabamento artesanal refinado.",
+    image: "src/ui/souplast/croche20.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Premium%20Bege"
+  },
+  {
+    id: 23,
+    name: "Souplast Floral Lilás",
+    category: "souplast",
+    price: 61.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast lilás artesanal com flores delicadas e acabamento elegante.",
+    image: "src/ui/souplast/croche21.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Lilás"
+  },
+  {
+    id: 26,
+    name: "Souplast Floral Terracota",
+    category: "souplast",
+    price: 63.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo terracota artesanal com flores em crochê e visual sofisticado.",
+    image: "src/ui/souplast/croche24.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Terracota"
+  },
+  {
+    id: 27,
+    name: "Souplast Luxo Azul",
+    category: "souplast",
+    price: 67.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast azul em crochê artesanal com acabamento de luxo.",
+    image: "src/ui/souplast/croche25.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Luxo%20Azul"
+  },
+  {
+    id: 28,
+    name: "Souplast Elegante Creme",
+    category: "souplast",
+    price: 60.0,
+    status: "Sob Encomenda",
+    description:
+      "Peça artesanal creme com acabamento elegante e detalhes delicados.",
+    image: "src/ui/souplast/croche26.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Elegante%20Creme"
+  },
+  {
+    id: 29,
+    name: "Souplast Floral Dourado Premium",
+    category: "souplast",
+    price: 69.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo premium dourado em crochê artesanal com flores sofisticadas.",
+    image: "src/ui/souplast/croche27.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Dourado%20Premium"
+  },
+  {
+    id: 30,
+    name: "Souplast Artesanal Verde Claro",
+    category: "souplast",
+    price: 58.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast verde claro artesanal com acabamento refinado em crochê.",
+    image: "src/ui/souplast/croche28.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Artesanal%20Verde%20Claro"
+  },
+  {
+    id: 31,
+    name: "Souplast Floral Champagne",
+    category: "souplast",
+    price: 65.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo champagne artesanal com flores delicadas e visual sofisticado.",
+    image: "src/ui/souplast/croche29.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Floral%20Champagne"
+  },
+  {
+    id: 32,
+    name: "Souplast Delicado Rosê Gold",
+    category: "souplast",
+    price: 68.0,
+    status: "Sob Encomenda",
+    description:
+      "Souplast rosê gold artesanal com acabamento delicado e elegante.",
+    image: "src/ui/souplast/croche30.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Delicado%20Rosê%20Gold"
+  },
+  {
+    id: 33,
+    name: "Souplast Clássico Areia",
+    category: "souplast",
+    price: 57.0,
+    status: "Sob Encomenda",
+    description:
+      "Modelo clássico areia em crochê artesanal para mesas sofisticadas.",
+    image: "src/ui/souplast/croche31.jpeg",
+    whatsapp:
+      "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Souplast%20Clássico%20Areia"
   }
 ];
 

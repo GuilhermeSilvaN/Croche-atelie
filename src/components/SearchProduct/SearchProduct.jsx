@@ -45,7 +45,7 @@ export default function SearchProduct({
             <option value="Tapetes">Tapetes</option>
             <option value="Bolsas">Bolsas</option>
             <option value="Blusas">Blusas</option>
-            <option value="Amigurumis">Amigurumis</option>
+            <option value="Amigurumi">Amigurumis</option>
             <option value="Decoração">Decoração</option>
           </select>
         </div>
