@@ -7,7 +7,7 @@ export const products = [
     status: "Sob Encomenda",
     description:
       "Apoiador de copo em crochê artesanal com acabamento delicado e elegante.",
-    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778291970/croche2_bsnpsj.jpg",
+    image: "https://res.cloudinary.com/dx4tlzrb1/image/upload/v1778293502/croche2_kflihr.jpg",
     whatsapp:
       "https://wa.me/5562994743661?text=Olá!%20tenho%20interesse%20nesse%20Apoiador%20de%20Copo%20Artesanal%20Bege"
   },

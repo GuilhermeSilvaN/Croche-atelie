@@ -2,6 +2,8 @@
 
 ![Tela principal](/images/viewModelCroche.png)
 
+projeto: https://crocheatelie.vercel.app/
+
 ---
 
 ## Visão Geral
